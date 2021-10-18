@@ -1,0 +1,379 @@
+No.,Questions/ Issue ,Answer /Steps to Resolve
+1,Error message on welcome page : “Access denied.  ‘You are not authorized to access this page.’”,"This error is because of user is not added as Manager or Employee. Once account is added to Manager or Employee list, it will be allowed to access it."
+2,"Error : "" please contact to administrator or manager to get for 365 timesheet addin""  after installing timesheet addin into tanent","User is not added on user role and does not have edit and contribute permission.  
+Ask Administrator to add user and assign permission to access the addin."
+3,Facing Issue in adding new users in Employee/Manager in Timesheet App?,"- Make sure that user have admin rights to add users in the timesheet App.
+- Make sure User you’re adding in the application must have appropriate permissions (Edit & Contribute) on the site where the app is installed.
+- Users should have Administrator rights to give permissions to other users.
+- Go through given link for giving permissions to users:
+https://www.ignatiuz.com/products/office-365-timesheet-app/help-guide/#permissionToAccess
+"
+4,"Facing Issue on Submitting timesheet ""  ?
+",Due to lower version of app. Ask to upgrade version of timesheet app.
+5,How to assign a manager to SharePoint users?,"For assigning manager role :  click on user management in left nevigation,then click on admin/manager  choose manager from dropdown and enter user name in user section and save it."
+6,How can we Add/Delete a project or task?,"By using Project and Task Setting from the left Navigation. 
+https://www.ignatiuz.com/knowledge-base/category/office-365/?key=timesheet&key=timesheet-faqs
+"
+7,Project Task field have disappeared and the field is blank while creating new timesheet.,Due to lower version of app. Ask to upgrade version of timesheet app.
+8,Error messages appears : “The user does not exist” while adding user in timesheet.,"It seems users do not have enough permissions. Can you please check users permission in SharePoint?
+User should have edit/contribute permission.
+"
+9,"While creating new timesheet and saving it as a draft, the changes are not reflecting in draft folder",It seems users do not have enough permissions. Can you please check users permission in SharePoint? User should have edit permission.
+10,How to remove the app from office 365?,"- Login to sharepoint using Administrator account
+- Click on setting icon
+- Go to contents
+- Locate office 365 timesheet app
+- Click the 3 dots on office 365 app – a popup will appear
+- Click on three dots appearing on the pop-up
+- A remove option will appear click on remove and the app will get removed successfully."
+11,"I have saved a draft and when I go back to it, everything is empty. I can’t submit for approval ",Due to lower version of app. Ask to upgrade the version. 
+12,I have created a site and added 5 members to that site but 3 members are not showing in the list while adding users,"Ask to check their permissions,We can add only those users who have at least ""Edit"" permission on site.
+"
+13,"Showing error ""Failed to read item from host web"".","Due to lower version of app. Ask to upgrade version of timesheet app.
+"
+14,"Showing error ""Item already exist with the weekend date"".",It shows that a Timesheet for the same weekending date already exists.
+15,How can I export employees’ timesheet in an excel or other format?,"- choose the Report option from the left navigation. Apply the filter and click on search button. The Export data option will appear at bottom of the search results. export data option will be displayed at the bottom. Data can be export in various formats such as Excel, CSV, PDF, MS Word."
+16,"Error message: ""finish your installation on sharepoint"" while trying to update the app","Please follow the below instruction to upgrade your app with the updated version.
+
+http://ignatiuz.com/blog/office-365/how-to-update-sharepoint-add-ins/"
+17,I am not able to access the area to add a timesheet. I am both a manager and an Administrator. The manager portal only has the manager portal access under it.,"Option to add timesheet is available to only employees. If you login as a manager, you can approve or reject timesheet submitted by employee."
+18,"Error message:""Sorry, you do not have permission to add app here"" while trying to provide addin button to install timesheet app","To install the app user should have the full control or admin rights on the SharePoint site.
+"
+19,I was just wondering if the information (timesheet data) is stored on our 365 tenancy or is it saved on your servers.,No we do not store any information. Your data will be stored in your SharePoint Tenant. 
+20,Is it possible to view the original sharepoint lists used so that we can make our own reports?,"We do not suggest to make any changes to list schema else Timesheet app will not give the satisfactory results,"
+21,Is it possible for two managers to view an employee timesheet?,"This feature is not available in timesheet App but In the Pro app, the Grant Permission feature is available. Using that feature we can give authority of one user to another.  For more details please go through the below link."
+22, how and where the data for this app is stored?,"In Office 365 Timesheet app, data is packaged within its own separate and secure app domain.Data is stored in your own SharePoint instance. "
+23,How to delete all previous submissions from the timesheet app?,"Yes, we can delete the data from the back end. 
+​
+Please find the Link for the steps to delete data from the backend.https://drive.google.com/file/d/1OOhLxsk7tv2PyKJL6C1K6iREcnJn73UH/view?usp=sharing"
+24,How to update sharepoint addins?,"Below are some useful links that will help you to upgrade the app.
+https://www.ignatiuz.com/blog/office-365/how-to-update-sharepoint-add-ins/"
+25,"I have added Office 365 Timesheet to my site, but it is not opening, Why?","Could you please delete and will try to install it again? ​Please find some useful links below which will help you to delete and install the app.
+
+https://www.ignatiuz.com/products/office-365-timesheet-app/how-to-delete-and-update-the-add-ins/ 
+
+https://www.ignatiuz.com/products/office-365-timesheet-app/installation-and-configuration-of-office-365-timesheet-app/
+
+"
+26,How to get back to older version?,getting back is not possible once an app upgrades to Pro.
+27,"The user has submitted the weekly timesheet to his manager.
+His manager left the organization without approving the timesheet.
+Now his new manager wants the approver rights
+How to do this?
+","The Grant Permission feature is specified for this in the PRO version.
+
+With the help of the grant permission option, we can give the authority of one user to another user and login into with there role without using their credentials.
+
+We also provided logs section as well in the timesheet where admin can monitor and see what action is performed by whom."
+28,How to deactivate the task from the task section?,"Please follow the below steps to deactivate the tasks in the Timesheet App :
+
+Steps :
+1. Go to Project and Task Setting and click on the Task tab.
+2. Click on Edit on the respective row.
+3. Uncheck the active checkbox.
+4. Click on the update button.
+"
+29,Can I still run reports which have deactivated status?,"Yes, in reports old inactive codes will appear for old entries where they exist, but it will not appear in the new timesheet entry page.
+"
+30,How to check the list of task codes that can be applied to multiple projects?,"The feature you are asking is the part of the Timesheet Pro app where you can create individual tasks and assign same to multiple projects in one go.
+
+Please have a look at below for PRO app features.
+https://www.ignatiuz.com/products/office-365-timesheet-app/paid-feature/
+
+"
+31,How to navigate the SharePoint lists where the projects and timesheet data?,"Yes, it is possible to navigate the SharePoint lists and we will provide some steps to see list data and that URL can be used as an API to integrate into any other application."
+32,How to connect the SharePoint list in Power BI and convert the JSON format into the table to create the reports.?,Follow the steps from a below link:https://drive.google.com/file/d/16VBsryUgD8GIooinWlz3yULKkQloxh-f/view?usp=sharing
+33,"is it possible to change the ""Office 365 Timesheet"" label to some other customized text on the free version of it ?",This feature is not available on the free version of Timesheet app.  You have to upgrade it to pro for this.
+34,can we provide this report as client wise customization on free or pro version.?,"We do not have this feature in PRO app version. But we can provide this report as customization. Let us know if you would like to customize the feature.
+"
+35,"Error message ""you cant add this app here"" while installing timesheet app.","It seems that the app with the same version is installed somewhere in your tenant. Or it might be possible that someone installed the app and deleted it so please check in the recycle bin as well if it is there, if yes delete it."
+36,"If I upgrade the version, all the data is retained or not?","App upgrade is completely safe, your data will be as it is. Our app is designed to protect the data."
+37,Can the timesheet settings be restricted only to Administrators?,"Yes,Timesheet setting options only for the administrator. "
+38, Nobody else other than Admins should extract the advance reports or update the projects and tasks.,"For now, the manager can add and update to the project and tasks based on settings. Also in advanced report employees can see the report for their timesheets only and manager can see the timesheet for their associated employee and own timesheets."
+39,How to add resources to Non-existing users.,Could you please confirm if it is about the external users who are not in your organization? You need to allow settings in the SharePoint site for external users and need to add in timesheet app.
+40,How can Manager track his own time? He doesn’t have an option to submit his timesheet.,"The feature is asked by you is available in the PRO version of the Timesheet app. 
+There is a role of the super manager is available who can fill there Timesheet which will approve directly after submitting it.
+
+"
+41,How to setup an App URL for timesheet mobile app in free version,"To login to the app, the user must have a PRO license.
+Please activate the PRO license before using the mobile app version."
+42,How do I get pro timesheet app?,"Apart from the free version of our app, we have a paid version also which is Pro version, you can try the Pro version for 14 days and can use the mobile app also. I will have someone from our sales get in touch with you and they can activate a Pro trial license for you."
+43,"Error message "" sorry, something went wrong with adding this app please retry'?",Please click to retry once. If it will not work then remove the app and install the app again.
+44,Where can I get a timesheet add-in for share point?,"Please go through the below link it will guide you to install and configure the app.
+
+https://www.ignatiuz.com/products/office-365-timesheet-app/installation-and-configuration-of-office-365-timesheet-app/"
+45,How do I install the timesheet app?,"To install the app admin right is required. 
+​
+Only the person who is the global admin or administrator rights in SharePoint can install and update the app."
+46,"Where can I find the app? I downloaded it a few days ago, but cannot find it, neither in sharepoint nor in any other office365 app?","Please go through the below link it will guide you to install and configure the app.
+
+https://www.ignatiuz.com/products/office-365-timesheet-app/installation-and-configuration-of-office-365-timesheet-app//"
+47,How can I use mobile app?,"To use the TImesheet app in mobile, first, you need to install the ""Office 365 timesheet"" app in the SharePoint."
+48,How do I check current version of timesheet app?,"Go to the Timesheet app -> In the menu section - go to the bottom and click on the Help menu -> In help page check- n the bottom.
+"
+49,"Error message: ""missing user role"" after trying to login","It seems user do not have the appropriate privileges to operate the app.
+
+​All the users who is going to use the app should have edit or contribute permission. 
+​
+Could you please go through the below link and check your permission.
+https://www.ignatiuz.com/products/office-365-timesheet-app/user-permission-to-access-the-add-ins/"
+50,"Is it possible by using the import excel sheet, that it can overwrite existing users with a new manager?",Using import feature existing manger will not overwrite instead of that a new entry will create for the same employee with a new manager and all the timesheet will submit to the new manager for approval. 
+51,I have lost the “import” users option by excel?,Please check the license. due to expired licence the app rollback to free version.
+52,Delete an employee/manager from Office 365. Will this delete all of their history and all of their timesheets?,"You can delete the user from Office 365, it will not affect the user's data history. "
+53,How to make an existing manager a super manager?,"A user who is not an employee can be a super manager. Ask to confirm if that user is not an employee? To whom you want to assign a super manager role.
+"
+54,Timesheet we are getting the option for Renew and recover?,"Due to license expire, ask to check license manager."
+55,"I am not able to download this App, its not available in the sharepoint store. ""We can't perform the solution right now please try again later""","Ask to logout and reopen the browser? 
+
+​Looks like its a network glitch - everything seems to be working well on AppSource.
+or send link to download our addin : https://appsource.microsoft.com/en-us/product/office/WA104381014?src=office&tab=Overview "
+56,"Error message: ""503 service unavailable, failed to read items from host web etc""."," ask to go through the below link and will check Microsoft run any patches. Sometimes it affects the performance of the app.
+
+http://status.office365.com/
+"
+57,Do we have access to timesheet List.?,"Yes, the app is deployed on your environment so you can access of entire timesheet list."
+58,How to upload an excel file in employee manager list?,"In the Timesheet PRO version, import feature is available. "
+59,We are unable to add more role apart from Manager and administrator.,"In the timesheet app hierarchy only 3 default roles are available - Admin, Manager, and Employee. We can customize it based on requirements."
+60,Can we allow permission to the SharePoint group instead of an individual?,"Definitely, create a group, add users and give permission to that group and import users into the timesheet app."
+61,can we define our own list and their relation through lookup?,It is possible and needs to do some customization to integrate the external lists.
+62,manager leaving the company and not approving these before they left. Can you please advise how we can approve these pending timesheets e.g. is there an admin facility to do this?,"​In the standard version there is no feature which can permit to you another users timesheet.
+
+But in the professional version of Timesheet app we have the grant permission option which provides the feature to give authority of one user to another.
+
+Or we can make some change from the backend. "
+63,Is it possible to install timesheet on multiple site?,The same version of the app can not be add on multiple site. So if the version is same it will install on one site only. 
+64,"
+Want to have to set up another account with a 3rd party – I’m looking for something within Office 365 Teams.","Our app runs on SharePoint only, and once the app is installed in SharePoint we can configure your SharePoint site to embed into Teams so that you can access timesheet directly from Teams."
+65,"Since the data is available from the site, can it be extracted first then we re-install the app afresh and then import the data into the reinstalled app?
+ ",We can extract data of the existing app into the excel sheet.  To import existing data into the new app we need to follow some process which will fall under customization and will be billable.
+66," Previously approved and rejected timesheets is missing.
+","We recently did enhancements and in employee portal limited entry will appear and to load all the entries we have given option ""Click here - to load all timesheets"""
+67,Reports show inaccurate hours and missing tasks,Ask to confirm? If you applied any date range filter. If yes then remove and check once again.
+68,"
+How to edit approved timesheet which was entered incorrectly.","An employee can't edit any approved timesheet until manager rejects  those timesheet. So, to perform the edit action, manager needs to reject the timesheet. "
+69,How to delete the project.,"If project exist in any timesheet then it will not be delete. 
+"
+70,once the Paid period expires will the timesheet system automatically return to the free version?,"That's correct, after expire the license key paid version will automatically revert to the free version."
+71,I don’t have access to the Admin portal to be able to add Projects even after I have given myself Global Admin permission?,To Add/delete the projects you need be an admin inside the Timesheet app.
+72,How do I find the URL to use Office 365 Timesheet App on my phone? I already have Professional trial situated.,"Please download mobile application on your mobile, below are the links to download the app on mobile.
+Get Android app from Goolge Play Store: https://play.google.com/store/apps/details?id=com.ignatiuz.Office365Timesheet&hl=en_US
+Get iOS app from Apple StoreApple:         https://apps.apple.com/app/id1471346646"
+73,"Error message "" we are adding your app"" while installing timesheet app?","
+The app installation process takes some time so if it is not installed after 1 hour as well then please delete it and try to install it again, it will work.
+
+"
+74,"As I am assigned Super Manager, I entered a TimeSheet for me an noted, that in the report the date is displayed as MM-DD-YY, can it be changed to DD-MM-YY?",​In the setting section there is a option from where you can change the date format but this change will reflect in all the app and for all users.
+75, Can the report be adjusted so I can access the daily working hours and not only the weekly summary?,"In the professional version daily report is not available. We can customize it if needed.
+"
+76,"In the app I am both administrator and manager, but I am also an employee.","As per the hierarchic of the application you can not be your manager, according to flow employee can fill the timesheet and manager can approve it.
+
+So add another user as a manager and assign to yourself as a manager."
+77,"Error message: "" week ending day should be saturday"" ? ",The issue is due to the timezone setting ask what is the global timezone for the site where timesheet app is installed?
+78,We have about 150 users. Is there a limitation for the free app?,There is no limit of users in the Timesheet app.
+79,How can I export all data from the list linked ? ,"Please use the below URL to get row data of the timesheet. 
+
+To get day wise entry:
+(Client url)/Office365Timesheet/lists/draft daily timesheet
+​
+To get the status of the timesheet based on week ending date
+(Client url)/Office365Timesheet/lists/draft weekly timesheet
+"
+80,"So once an administrator downloads the app, how does everyone else get it on their own computers?  Does it automatically show up for everyone in their apps once the admin downloads it?
+", To access the application you need to share the site URL where timesheet app is installed. also need to add the users into the application and make sure all the user who are going to use the app should have edit or contribute permission on the site.
+81,It looks like there is a maximum number of hours limit for each day. Not allowed to enter more than 8 hours. Is it setup related issue? ,"To resolve the above problem please Go to -> Setting -> Benchmark setting 
+With the help of benchmark setting you can enter the benchmark hours according to your requirement
+"
+82,I am having some trouble with editing project and project tasks that are associated with current timesheets. ?,"As time is reported against the project so estimated hours will not be updated. But it can be done from the backend in the SharePoint list.
+
+Please to confirm if you want to update it. Also, share the URL of the page so we will provide you an API to connect the data from the backend. "
+83," Error message: ""Task has some listed task,task is associated with the project ""","If task is associated with the project it can't be deleted.
+If you want to remove it,  first you need to remove it from project and task tab then you can able to remove from task section.
+Also make sure if employees entered hours for the project and task then it can not delete so in that case it is better to assign new task to project which you need to update.
+"
+84,"I used to have “advance reports” available in my office 365 timesheets, which I don’t see anymore and can only see just “Reports”. Do you know what can be the reason?
+ ",It seems your annual subscription was not updated. Could you please log off the O365 and log in again?
+85,Can the timesheet settings be restricted only to Administrators? Nobody else other than Admins should extract the advance reports or update the projects and tasks.,"Timesheet setting options only for the administrator. 
+For now, the manager can add and update to the project and tasks based on settings. 
+Also in advanced report employees can see the report for their timesheets only and manager can see the timesheet for their associated employee and own timesheets."
+86,Few of the submitted timesheets are not appearing in the extract. The View Timesheet shows 37.5 hours and the actual report is with 0 hours.,please confirm if not use any date filter. If the date will be there then the report will show the hours based on those days.
+87,How to add resources to Non-existing users.?,Confirm if it is about the external users who are not in your organization? You need to allow settings in the SharePoint site for external users and need to add in timesheet app.
+88,How to get an option to add non-existing users from users menu?,The non-existing users are the user who does not have the permission on the site to use the app and they filtered during the bulk import to users. External users are the users who do not belong to your organization and want to the SharePoint site. The not existing feature is not for external users.
+89,"How to import time from an excel sheet,?","In the current scenario of Timehseet app, import timesheet via excel is not available."
+90," An external contractor who is a member of our company site is not coming up as a potential employee when I put their name in the employee dialog.  What do I do next, please?","​
+It seems permission issue of the user. please go to the site settings -> Check permission -> type the user user who has the issue and check the permission.
+
+After this process go to the Timesheet app and try to add the user in app.
+"
+91,"I have the endless loop, while activating license by key.","Could you please refresh and check again with same key.
+"
+92,"Settings option is not available under administration. Can you help me find out?
+ 
+It is not allowing me to fill in time sheet beyond 24 hrs.
+Its not allowing me to add more task in a day.
+How can I add dates instead of weeks?","It is free version with the basic features, there is limit to enter 24 hrs and adding more tasks.
+In Pro version setting is available to modify hours."
+93,"I think the request is very simple. The date in the Office 365 Timesheet web page are on the American format (MM/dd/YYYY), can it be set up in the DD/MM/YYYY format?","If you are using pro version there is a setting to change Date format.
+Go To ->  settings from left navigation ->  Select Date Format to DD-MM-YYYY."
+94,"If we do not have a Pro version, how can we change date format?",​In free version it is fixed. we can't change it.
+95,Is it possible to change the description name of a project (retaining the original project ID number) which has timesheets submitted historically and further timesheets will be submitted using the changed description?,"Yes, it is possible.
+You can change the project description name by Project and Task Settings.
+It will change project name of submitted timesheets and further timesheets will also submitted using changed description.
+"
+96,"I am trying to remove myself as a manager from one of my employees, but I'm getting an error that says: ""Employee is associated with existing timesheet, so remove it from the timesheet first and then delete."" However, there are no open, drafted, or rejected timesheets associated between us, only submitted/approved timesheets. How can I solve this error?","Please find the link to access list, so you can remove it from back end.  https://xxxx/TeamSite/Office365Timesheet/Lists/Manager%20of%20employee"
+97,"I have added Time Sheet as add-in to my Sharepoint but do not know how to use it. Would you email the link to the guide?
+","Please go through with the below link.
+Timesheet Help-Guide : https://www.ignatiuz.com/products/office-365-timesheet-app/help-guide/
+Timesheet User-Manual: https://drive.google.com/file/d/1vMvpBMzldOWwNd10dEyBpmgdYlaXjZEH/view?usp=sharing
+"
+98,could you be able to explain the best approach to migrate in order to keep all the data? We are struggling to find where the data resides.,"It is not possible to migrate timesheet from one tenant to another tenant.
+But we can provide you a custom solution to do it, that will be chargeable."
+99,I need the same Project Task's to show up in every Project I create.,"Free version of timesheet contain limited functionality, In professional version their is a option to assign multiple projects to multiple tasks."
+100,How do I obtain admin access for this. It is already installed on our SharePoint site.,"- Make sure that user have admin rights to add users in the timesheet App.
+- Make sure User you’re adding in the application must have appropriate permissions (Edit & Contribute) on the site where the app is installed.
+- Users should have Administrator rights to give permissions to other users.
+- Go through given link for giving permissions to users:
+https://www.ignatiuz.com/products/office-365-timesheet-app/help-guide/#permissionToAccess"
+101,"I am a Manager in the system. i need to add a project to an employee account. How do I do that? When i click edit under an employee's account, nothing opens.","Please go through with below links :
+Help-Guide :https://www.ignatiuz.com/products/office-365-timesheet-app/how-to-use-the-add-ins/"
+102,"Is it possible to remove or edit the title of the Billable/Non-Billable option?
+Are any of the column headers customizable?","In the PRO version, setting option is available to show and hide the billable and non-billable column in time entry page. Also, column header can be customize. 
+​
+Could you please share the details that where the header changes are required?"
+103,The billable checkbox is not a feature in the regular version?,In regular version billable/Non-billable is available but in pro version with the help of setting it can be hide.
+104, How do delete timesheet of user who left the company. I can't login with his User.,"Can't delete the user from the application if timesheet is exist for that user.
+But if you want to remove this please share the site URL where application is installed we will provide the link to access the list where all user's  created.
+"
+105,I am not able to retrieve any data that’s older than 6 months. This poses a significant problem for me now.,"Could you please share the current version of the app?
+
+To check the version of the app Go to Help menu -> at the bottom of the page you can see the current version.
+"
+106,"I cannot find out how I can edit (rename) existing Tasks which are assigned to existing Projects.
+I can only create a new Task and assign it to a Project.
+ 
+How can I rename existing Tasks already assigned?","In our application there is no option available to edit existing assigned task to project.
+It is possible to rename task from back end but it might effect old timesheet if old task exist in the timesheet.
+so create a new task and assigned to the project it the better option."
+107,We have started to experience slow performance and timeouts when trying to review timesheets and approve timesheets. ,"Could you please let me know that when this issue has started?  To confirm it is an app issue or related to the SharePoint Online.
+Please go to the below and check for the services if any related to SharePoint online and Exchange online.
+​
+https://status.office.com/
+"
+108,It seems the key is not working: entered key is invalid,Could you please share the site URL where the timesheet application is installed?  Correct the url for license
+109,Is it possible to submit a timesheet to two managers at the same time? We have one manager that needs to be copied in all timesheet submissions. ,This feature is not available in Office 365 Timesheet App free/pro version but we have enterprise version of timesheet application which include second approval feature and more other feature.
+110,"We have approximately 160 agents submitting timesheets on a weekly basis, this issue is only affecting one agent, however, this one agent is unable to submit his own timesheet.
+
+Can you please advise?
+","We have approximately 160 agents submitting timesheets on a weekly basis, this issue is only affecting one agent, however, this one agent is unable to submit his own timesheet.
+
+Can you please advise?
+"
+111,"feature to approve the timesheet in bulk at once, instead of approving for each employee separately.","
+​These features will fall under customization and will be implemented in the Enterprise version of the Timesheet application."
+112,"On the timesheet application, no rows appear in which to enter time.  Issue occurs in both production and development system.  Please see attached screenshots.","Check is their any empty project is saved in project list, if found remove them."
+113,What is grant permission option in timesheet?, Administrator can give authority to the employee role also to get login as manager and approve or reject its timesheet in his/her absence.
+114,"As the administrator I was aiming to update the record but unfortunately managed to duplicate this employee and I am not unable to delete either – see below.
+ 
+Can you advise on how I proceed?","Follow the below steps to open the list from the backend and delete the duplicate record.
+Open the timesheet app
+Copy the URL and open in a new tab - https://XXXXXXXXXXXX/Office365Timesheet/lists/manager%20of%20employee
+The list will open - > then go to the employee column and find the specific employee
+It will show 2 records and then delete one of them and save the list
+Make sure do not make any changes else it will affect the production data."
+115,It looks like our timesheet app has changed. Its missing half the things we need. Please advise what happened and correct ASAP.,Please check your license section and if it is deactivated then activate it again.
+116,"we are using the Timesheet App, but, even as Administrator, we are not able to add a new Employee in the Employee Manager.
+When typing the employee name/email in the Employee field the system does not show the chosen email address.
+The app does not recognize the email or the employee name.","It seems that user whose you are adding in the application does not have appropriate permission on the site where app is installed.
+Please go through this -  https://www.ignatiuz.com/knowledge-base/category/office-365/?key=timesheet&key=timesheet-knowledge-base
+In knowledge base section check first point how to grant permission to users. 
+"
+117,I cannot find the Site App Permission item.?,"You should have admin rights to set permission for the user's. 
+"
+118," If we are updating users' data entries in the backend, will it automatically update the entries in the Timesheet app?","  If data entry add in the backend directly then make sure to add correct project, task ID and other required details then only it will display correctly in time entry page.
+"
+119,How to export projects and Tasks in Office 365 Timesheet? and if we import the updated lists will this have an impact on the previous entries which have been already approved?,"Project and task detail can be export from the backend.
+If any changes make in the project and task which already exist in the approved timesheet then it will affect to those timesheet.
+"
+120,"We want to integrate SQL Express, could you please guide us how to proceed on same?
+","Could you please confirm which type of integration is required.
+Do you want to fetch some information from SQL express or you want store information into SQL express?"
+121,"
+I am trialling the Office365 Timesheets app - looks great from an Admin perspective but how do I deploy this to all users since centralised deployment is not supported for Sharepoint?
+ ","
+You do not need to deploy timesheet app for all users. 
+Only need to install the application on SharePoint site and add users in the application with their specific roles so all the user can access the application by login with their credential ..
+​
+For more information please visit this link - https://www.ignatiuz.com/knowledge-base/category/office-365/?key=timesheet&key=timesheet-faqs"
+122,"
+I am trying to add some new users but some Office 365 accounts that were recently added in our Office 365 database are not displayed in the employee text box in the Employee Manager window.
+ ","It seems that user does not have appropriate permission to access the application.
+please go through the below link, it will help you to solve the issue.
+
+https://www.ignatiuz.com/knowledge-base/category/office-365/?key=timesheet&key=timesheet-knowledge-base"
+123,I just added a new employee – Dustin McInnes. Im trying to add myself to the authorized users like the other employee’s but it wont save. (check the list of users :  null ),"
+Please remove the row which contain null value and try to add again."
+124,"We are using the Office 365 Timesheet App. The app is not saving user’s time even when they choose the save option.
+This is frustrating as the user’s then have to go back and re-enter time again, which can waste a lot a time.
+Is this a bug? We’ve tested this a few times to make sure it was just user error. The system is in fact, not saving time for some users.
+ 
+Is there a way to recover entered time? Is there a fix to resolve this issue for future use?
+",Please check the license. due to expired licence the app rollback to free version.
+125,Is all submitted time sheets will be in different list?,"yes, to get all submitted timesheet use below link.
+https://xxxxxxxxxxxxxxxxxxxx/Office365Timesheet/Lists/Draft%20weekly%20TimeSheet/AllItems.aspx 
+​Make sure do not make any changes else it will affect the production data. "
+126,Is all draft daily time sheets list?,"Please find the link to access list : https://xxxxxxxxxxxxxxxxxxxx/Office365Timesheet/Lists/Draft%20daily%20TimeSheet/AllItems.aspx 
+​Make sure do not make any changes else it will affect the production data. "
+127,No positive outcome after import even after refresh. Seems import function not working.  ,"Ask to check excel,
+The excel format you're using is seems different.
+Could you please download the excel format from the instruction icon and try again with this format. please Do not make any changes in excel sheet."
+128,The Application is very slow. It takes lot of time from one page to other and within the page as well.,"Ask for version if its lower, upgrade it to latest version."
+129,"It could not create any reports from since last months, and the approval workflow also not working since then.","Ask for version if its lower, upgrade it to latest version"
+130,"If I upgrade the version, could be any problem with data under Timesheet add-in? I mean if i upgrade all data is retained...","App upgrade is completely safe, your data will be as it is. Our app is designed to protect the data. "
+131,"Error message: ""Employee with same manager already exist"" while assigning manager to an employee?"," please try to update the approver of the existing employee and assign the new approver?
+​
+Do not create a new entry for employee with new approver."
+132,How to remove timesheet app from office 365?,"To remove the app from the site please follow the below steps:-
+Login to sharepoint using Administrator account
+Click on setting icon
+Go to contents
+Locate office 365 timesheet app
+Click the 3 dots on office 365 app – a popup will appear
+Click on three dots appearing on the pop-up
+A remove option will appear click on remove and the app will get removed successfully."
+133,Who can download timesheet.?,Only the administrator of sharepoint can download the app.
+134,Can manager see reports?,"only the associated manager of the empoyee can see the employee report and The administrator of the add-in can see all the employee report.
+"
+135,Can we create multiple admin in timesheet app?,"Yes, there can be more than one admin."
+136,"I am the employee and I am the manager as well, want to submit my timesheet and aprove myself can it is possible in timesheet app?",In pro version of timesheet app has the functionality of super manager by this manager can fill his timesheet and approve his own timesheet.
+137,Can task copied to another projects?,No but In pro version their is an option to assign multiple project to multiple task.
+138,Power BI integration in standard version?,"For Power BI integration you have to upgrade the app into pro version, we provide you custom solution to integrate it."
+139,Can we Submit timesheets without approval. ?,"In pro version their is a setting of direct approval, by this timesheet will not go to manager."
+140,Reporting doesn’t give summary for charged hours by projects?,It is available in enterprise version of timesheet.
+141,Can we edit submitted timesheets ?,"Once the timesheet is approved by manager it can not be edit, an submitted timesheet can be edit before approval. Manager can reject it then the user can amend it and submit again."
+142,"If the setting is enable for direct submission, can timesheet edit after submission.","No, it is not possible to edit timesheet after submission."
+143,"As an admin, I'm unable to delete the timesheet data from a particular employee. How can I delete the timesheet input from this particular employee to reset the timesheet for him/her without compromising the project, customer and tasks data already in the app? ","There is two option is available to remove the existing timesheet data :
+
+First You can remove the rejected, drafted and pending 
+timesheet from employee portal and if the timesheet is approved, manager
+ need to reject first then employee can remove the rejected timesheet.
+Or second we can provide a list URL where timesheet data stored so you can delete timesheet from their."
+144,Can we have any extra custom feild in timesheet?,In standard and pro version it is not possible but In enterprise version their is functionality to create custom feild.
+145,Can  employee add task and projects in timesheet ?,In pro version their is a setting by enabling this employee can add only task in timesheet. Steps - Setting -> Project/Task ssetting -> select All users and save it. 
+146," 
+Once my trial is over, will I lose tasks/projects that I’ve imported using the PRO version? Or will the info remain and I just lose the PRO features?","There will be no changes in data. Only the PRO version feature will revert back to the standard version.
+"
+147,"Employees wants to enter time in hours (for eg.  If he took 10 min, then he can enter time as 0.1, if 30 min= 0.3, 40 minutes 0.4, 1 hour= 1 so on).","In the current application, we allowed hours to put in decimal formate (for eg.  for 10-15 min =0.25, 30 min = 0.5, 40-45 min = 0.75, 1 hour = 1)"
+148,Is there any limitations in adding users? Or I can have as many as I want?,There is no limit of users is in all versions of the Timesheet.
+149," I don't get the option to ""Click here to load all records"" in timesheets.","Ask for the currect version of timesheet, To check the version follow below steps:
+Open the site where the app is installed -> go to the site contents -> Search Office 365 Timesheet app -> click on 3 dots next to the app -> go the Monitor and share the screens shot with us.
+
+"
+150,Can we see logs/ activity of users in timesheet?,In timesheet logs generate only when user is performing any activity by grant permission option. We can see this from Logs option in Left Navigation.
+151,Can we upload documents in Timesheet App?,"Yes, their is an option of upload documents in left navigation."
+152,Can we assign project to specific employee?,"In Enterprise version of timesheet app their is the option of  Assign Project to employee in left nevigation, by this we can do this."
+153,Can we create super user like a super manager?,"Yes, In enterprise version of timesheet we can create super user, by super user option in left navigation. "
+154,Is it possible to export data with daily information – export CSV only gives us weekly data,The app is designed to generate weekly reports and this feature is not available out of the box in any version of the app. We can always customize this on top of the Enterprise version if that is a must needed feature for you.
+155,When we do export CSV – does it export all data based on filter or do we need to change the paging of the table from 25/50 to ALL?," Yes, you will have to select “All” in page range so that you get to see all reports. Standard version has limitations on the export but as you are using Professional version already, it will allow you to export large reports in one click."
+156,Is it possible to enter to times on the timesheet in a ‘To’ and ‘From’/Start time and end time format?,"In the Pro application, this feature is not available. We can customize it based on your requirements."
+157,Is it possible to have a manager or a crew leader to enter the timesheet time for the crew members?,"In the Pro app, the Grant Permission feature is available. Using that feature we can give authority of one user to another.  For more details please go through the below link.
+https://www.ignatiuz.com/products/office-365-timesheet-app/paid-feature/#grantPermission 
+"
